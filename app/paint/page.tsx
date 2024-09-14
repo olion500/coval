@@ -1,21 +1,9 @@
 'use client';
 
-import { ButtonDock } from 'baseui/button-dock';
-import { Button, KIND } from 'baseui/button';
+import { CustomImageEditor } from '@/components/ui/custom-image-editor';
 
-export default function LoginPage() {
+export default function PaintPage() {
   return (
-    <ButtonDock
-      primaryAction={<Button>Primary Action</Button>}
-      secondaryActions={[
-        <Button kind={KIND.secondary} key="first">
-          Secondary Action 1
-        </Button>,
-        <Button kind={KIND.secondary} key="second">
-          Secondary Action 2
-        </Button>
-      ]}
-      dismissiveAction={<Button kind={KIND.tertiary}>Dismiss</Button>}
-    />
+    <CustomImageEditor />
   );
 }
