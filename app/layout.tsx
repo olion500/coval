@@ -3,8 +3,8 @@ import './globals.css';
 import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
-  title: 'Coval',
-  description: 'Coval'
+  title: 'UniqueD',
+  description: 'UniqueD'
 };
 
 export default function RootLayout({
