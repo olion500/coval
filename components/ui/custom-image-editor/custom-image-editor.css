@@ -1,0 +1,26 @@
+/*
+.tui-image-editor-submenu {
+  display: none;
+}
+*/
+
+.tui-image-editor-help-menu {
+  display: none !important;
+}
+
+/*
+.tui-image-editor-controls {
+  display: none;
+} */
+
+/* .tui-image-editor-header {
+  display: none;
+} */
+
+.tui-image-editor-controls-logo {
+  display: none !important;
+}
+
+.tui-image-editor-controls-buttons {
+  display: none !important;
+}
